@@ -1,16 +1,22 @@
 //Business End Logic
 var equation = function(userInput) {
 
-  if (userInput === "3") {
-    var replaceThree = "ping";
-    $("#pingpong-result").text(replaceThree);
-  } else if (userInput === "5") {
-    var replaceFive = "pong";
-    $("#pingpong-result").text(replaceFive);
-  } else if (userInput === "15") {
-    var replaceFifteen = "pingpong";
-    $("#pingpong-result").text(replaceFifteen);
-  }
+  var userInputParse = parseInt(userInput);
+  var userCount = [userInputParse,(userInputParse - 1),(userInputParse - 2),(userInputParse - 3),(userInputParse - (userInputParse-1))];
+  var userCountReverse = userCount.reverse();
+  $("#pingpong-result").text(userCountReverse);
+
+
+  // if (userInput === "3") {
+  //   var replaceThree = "ping";
+  //   $("#pingpong-result").text(replaceThree);
+  // } else if (userInput === "5") {
+  //   var replaceFive = "pong";
+  //   $("#pingpong-result").text(replaceFive);
+  // } else if (userInput === "15") {
+  //   var replaceFifteen = "pingpong";
+  //   $("#pingpong-result").text(replaceFifteen);
+  // }
 }
 
 
