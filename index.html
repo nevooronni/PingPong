@@ -8,7 +8,41 @@
     <title>Ping Pong</title>
   </head>
   <body>
+<!-- Navbar Start -->
 
+<!-- Navbar End -->
+    <div class="jumbotron">
+      <div id="container">
+        <h1>The Ping Pong Game</h1>
+        <h3>Enter in any number and see how many pings, pongs, and pingpongs you get!</h3>
+        <p>Rules:
+          <ul>
+            <li>Numbers divisible by 3 are replaced with the word "ping"</li>
+            <li>Numbers divisible by 5 are replaced with the word "pong"</li>
+            <li>Numbers divisible by 15 are replaced with the word "pingpong"</li>
+          </ul>Example: If you enter in the number "20", the game will show you a result of (1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong, 16, 17, ping, 19, pong).
+        </p>
+      </div>
+<!-- Form Start -->
+      <form id="ping-pong">
+        <div class="form-group">
+          <label for="number-input">Enter a number!</label>
+          <input required id="number-input" type="text">
+        </div>
+        <button type="submit" class="btn">Submit!</button>
+      </form>
+    </div>
+<!-- Form End -->
+<!-- Result Start -->
+    <div id="result">
+      <p><span id="ping-pong-result"></span></p>
+    </div>
+<!-- Result End -->
+<!-- Sticky Social Start -->
 
+<!-- Sticky Social End -->
+<!-- Footer Start -->
+
+<!-- Footer End -->
   </body>
 </html>
