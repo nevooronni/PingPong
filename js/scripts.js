@@ -1,5 +1,6 @@
 //Business End Logic
-var equation = function(userInput) {
+var convert = function(userInput) {
+  var result = "";
 
   for (var inputCountUp = 1; inputCountUp <= userInput; inputCountUp += 1) {
     if (((inputCountUp % 3) === 0) && ((inputCountUp % 5) === 0)) {
@@ -21,8 +22,8 @@ $(document).ready(function() {
     event.preventDefault();
     var userInput = parseInt($("input#number-input").val());
 
-    $("#pingpong-result").text(equation(userInput));
-    $("#result, #pingpong-result").slideToggle();
+    $("#pingpong-result").text(convert(userInput));
+    $("#result, #pingpong-result").show();
     $("#initial-display").toggle();
   });
 });
