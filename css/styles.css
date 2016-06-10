@@ -1,6 +1,5 @@
 body {
   font-family: serif;
-  color: #FFFFFF;
 }
 
 .navbar {
@@ -41,6 +40,10 @@ h5, ul {
 
 form {
   padding-top: 30px;
+}
+
+#number-input {
+  color: #000000;
 }
 
 #submit-btn {
