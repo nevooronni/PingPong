@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
+<!-- Link Bootstrap, CSS, jQuery and JavaScript Start -->
     <link href="css/bootstrap.min.css"rel="stylesheet" type="text/css">
     <link href="css/styles.css"rel="stylesheet" type="text/css">
     <script src="js/jquery-1.12.4.js"></script>
     <script src="js/scripts.js"></script>
+<!-- Link Bootstrap, CSS, jQuery and JavaScript End -->
     <title>Ping Pong</title>
   </head>
   <body>
 <!-- Navbar Start -->
-
+    <div class="nav">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-text pull-left"><a class="navbar-brand text-muted" href="index.html">Reset Game!</a></div>
+        </div>
+      </nav>
+    </div>
 <!-- Navbar End -->
     <div class="jumbotron">
-      <div id="container">
+      <div class="container">
         <h1>The Ping Pong Game</h1>
         <h3>Enter in any number and see how many pings, pongs, and pingpongs you get!</h3>
         <p>Rules:
@@ -22,15 +30,15 @@
             <li>Numbers divisible by 15 are replaced with the word "pingpong"</li>
           </ul>Example: If you enter in the number "20", the game will show you a result of (1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong, 16, 17, ping, 19, pong).
         </p>
-      </div>
 <!-- Form Start -->
-      <form id="ping-pong">
-        <div class="form-group">
-          <label for="number-input">Enter a number!</label>
-          <input required id="number-input" type="text">
-        </div>
-        <button type="submit" class="btn">Submit!</button>
-      </form>
+        <form id="ping-pong">
+          <div class="form-group">
+            <label for="number-input">Enter a number!</label>
+            <input required id="number-input" type="text">
+          </div>
+          <button type="submit" class="btn">Submit!</button>
+        </form>
+      </div>
     </div>
 <!-- Form End -->
 <!-- Result Start -->
@@ -42,7 +50,11 @@
 
 <!-- Sticky Social End -->
 <!-- Footer Start -->
-
+    <div class="nav">
+      <nav class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="navbar-text pull-right">Site built by Shradha Pulla</div>
+      </nav>
+    </div>
 <!-- Footer End -->
   </body>
 </html>
