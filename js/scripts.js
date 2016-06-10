@@ -1,13 +1,18 @@
 //Business End Logic
 var equation = function(userInput) {
-//   var userCount = [(userInput - (userInput - 1)),(userInput - (userInput - 2)),(userInput - (userInput - 3)),(userInput - (userInput - 4)), parseInput]
-//
+  // var userCount = [(userInput - (userInput - 1)),(userInput - (userInput - 2)),(userInput - (userInput - 3)),(userInput - (userInput - 4)), userInput]
+
 // starts at 1, goes all the way to (userInput-1)
 //
 // [uI-(uI-1)],[uI-(uI-2)],[uI-(uI-3)],...,[uI-(uI-(uI-1))],[uI]
-// debugger;
+
+  // var inputSplit = [!userInput];
 
 
+  // for (var i = 0; i < userInput; i ++) {
+  //   var userCount = [(userInput - (userInput - i)),userInput];
+  // }
+  //
   // if (((userInput % 3) === 0) && ((userInput % 5) === 0)) {
   //   userInput = "pingpong";
   // } else if ((userInput % 3) === 0) {
@@ -16,7 +21,7 @@ var equation = function(userInput) {
   //   userInput = "pong";
   // } else {
   // }
-  // $("#pingpong-result").text(userInput);
+  $("#pingpong-result").text(userCount);
 }
 
 
