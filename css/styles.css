@@ -39,8 +39,8 @@ h5, ul {
   font-size: 12pt;
 }
 
-#ping-pong {
-  margin-top: 40px;
+form {
+  padding-top: 30px;
 }
 
 #submit-btn {
