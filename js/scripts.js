@@ -1,7 +1,5 @@
 //Business End Logic
 var convert = function(userInput) {
-  var result = "";
-
   for (var inputCountUp = 1; inputCountUp <= userInput; inputCountUp += 1) {
     if (((inputCountUp % 3) === 0) && ((inputCountUp % 5) === 0)) {
       alert("pingpong");
