@@ -2,14 +2,14 @@
 var equation = function(userInput) {
 
   for (var i = 1; i <= userInput; i += 1) {
-    if (((userInput % 3) === 0) && ((userInput % 5) === 0)) {
-      userInput = "pingpong";
-    } else if ((userInput % 3) === 0) {
-      userInput = "ping";
-    } else if ((userInput % 5) === 0) {
-      userInput = "pong";
+    if (((i % 3) === 0) && ((i % 5) === 0)) {
+      alert("pingpong");
+    } else if ((i % 3) === 0) {
+      alert("ping");
+    } else if ((i % 5) === 0) {
+      alert("pong");
     } else {
-      alert("Error");
+      alert(i);
     }
   }
 }
@@ -29,19 +29,3 @@ $(document).ready(function() {
     $("#initial-display").hide();
   });
 });
-
-
-
-
-
-
-
-// Experimentation
-// var userCount = [(userInput - (userInput - 1)),(userInput - (userInput - 2)),(userInput - (userInput - 3)),(userInput - (userInput - 4)), userInput]
-//
-// [uI-(uI-1)],[uI-(uI-2)],[uI-(uI-3)],...,[uI-(uI-(uI-1))],[uI]
-//
-// var inputSplit = [!userInput];
-// for (var i = 0; i < userInput; i ++) {
-//   var userCount = [userInput,(userInput - (userInput - i))];
-// }
