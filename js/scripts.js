@@ -1,27 +1,17 @@
-//Business End Logic
+// //Business End Logic
 var equation = function(userInput) {
-  // var userCount = [(userInput - (userInput - 1)),(userInput - (userInput - 2)),(userInput - (userInput - 3)),(userInput - (userInput - 4)), userInput]
 
-// starts at 1, goes all the way to (userInput-1)
-//
-// [uI-(uI-1)],[uI-(uI-2)],[uI-(uI-3)],...,[uI-(uI-(uI-1))],[uI]
-
-  // var inputSplit = [!userInput];
-
-
-  // for (var i = 0; i < userInput; i ++) {
-  //   var userCount = [(userInput - (userInput - i)),userInput];
-  // }
-  //
-  // if (((userInput % 3) === 0) && ((userInput % 5) === 0)) {
-  //   userInput = "pingpong";
-  // } else if ((userInput % 3) === 0) {
-  //   userInput = "ping";
-  // } else if ((userInput % 5) === 0) {
-  //   userInput = "pong";
-  // } else {
-  // }
-  $("#pingpong-result").text(userCount);
+  for (var i = 1; i <= userInput; i += 1) {
+    if (((userInput % 3) === 0) && ((userInput % 5) === 0)) {
+      userInput = "pingpong";
+    } else if ((userInput % 3) === 0) {
+      userInput = "ping";
+    } else if ((userInput % 5) === 0) {
+      userInput = "pong";
+    } else {
+      alert("Error");
+    }
+  }
 }
 
 
@@ -39,3 +29,19 @@ $(document).ready(function() {
     $("#initial-display").hide();
   });
 });
+
+
+
+
+
+
+
+// Experimentation
+// var userCount = [(userInput - (userInput - 1)),(userInput - (userInput - 2)),(userInput - (userInput - 3)),(userInput - (userInput - 4)), userInput]
+//
+// [uI-(uI-1)],[uI-(uI-2)],[uI-(uI-3)],...,[uI-(uI-(uI-1))],[uI]
+//
+// var inputSplit = [!userInput];
+// for (var i = 0; i < userInput; i ++) {
+//   var userCount = [userInput,(userInput - (userInput - i))];
+// }
