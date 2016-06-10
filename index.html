@@ -3,6 +3,7 @@
   <head>
 <!-- Link Bootstrap, CSS, jQuery and JavaScript Start -->
     <link href="css/bootstrap.min.css"rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-social.css"rel="stylesheet" type="text/css">
     <link href="css/styles.css"rel="stylesheet" type="text/css">
     <script src="js/jquery-1.12.4.js"></script>
     <script src="js/scripts.js"></script>
@@ -14,7 +15,7 @@
     <div class="nav">
       <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-          <div class="navbar-text pull-left"><a class="navbar-brand text-muted" href="index.html">Reset Game!</a></div>
+          <div class="navbar-text pull-left"><a class="navbar-brand text-muted" href="index.html">Reset the Game!</a></div>
         </div>
       </nav>
     </div>
@@ -22,8 +23,8 @@
     <div class="jumbotron">
       <div class="container">
         <h1>The Ping Pong Game</h1>
-        <h3>Enter in any number and see how many pings, pongs, and pingpongs you get!</h3>
-        <p>Rules:
+        <h3>Enter in any number and see how many pings, pongs, and pingpongs you can get!</h3>
+        <p>Rules
           <ul>
             <li>Numbers divisible by 3 are replaced with the word "ping"</li>
             <li>Numbers divisible by 5 are replaced with the word "pong"</li>
@@ -36,7 +37,7 @@
             <label for="number-input">Enter a number!</label>
             <input required id="number-input" type="text">
           </div>
-          <button type="submit" class="btn">Submit!</button>
+          <button type="submit" class="btn" id="submit-btn">Submit!</button>
         </form>
       </div>
     </div>
@@ -47,11 +48,18 @@
     </div>
 <!-- Result End -->
 <!-- Sticky Social Start -->
-
+    <aside id="sticky-social">
+      <ul id="social-icons">
+        <li><a href="http://facebook.com" class="btn btn-social-icon btn-facebook"><span class="fa fa-facebook"></span></a></li>
+        <li><a href="http://twitter.com" class="btn btn-social-icon btn-twitter"><span class="fa fa-twitter"></span></a></li>
+        <li><a href="https://www.pinterest.com/" class="btn btn-social-icon btn-pinterest"><span class="fa fa-pinterest"></span></a></li>
+        <li><a href="https://www.instagram.com/" class="btn btn-social-icon btn-instagram"><span class="fa fa-instagram"></span></a></li>
+      </ul>
+    </aside>
 <!-- Sticky Social End -->
 <!-- Footer Start -->
     <div class="nav">
-      <nav class="navbar navbar-inverse navbar-fixed-bottom">
+      <nav class="navbar navbar-inverse navbar-fixed-bottom" id="footer">
         <div class="navbar-text pull-right">Site built by Shradha Pulla</div>
       </nav>
     </div>
