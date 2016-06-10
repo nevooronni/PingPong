@@ -21,8 +21,8 @@ $(document).ready(function() {
     var userInput = parseInt($("input#number-input").val());
 
     $("#pingpong-result").text(convert(userInput));
-    $("#result, #pingpong-result").show();
-    $("#initial-display").toggle();
+    // $("#result, #pingpong-result").show();
+    // $("#initial-display").toggle();
   });
 });
 
