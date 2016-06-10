@@ -1,18 +1,20 @@
 //User Interface Logic
 $(document).ready(function() {
-  $("form#ping-pong").submit(function(event) {
+  $("form#pingpong").submit(function(event) {
     event.preventDefault();
-    var userInput = parseInt($("input#number-input").val());
+    var userInput = $("input#number-input").val();
 
-    $("#ping-pong-result").text(result);
-    $("#result").slideUp();
-    $(".jumbotron").hide();
+    $("#pingpong-result").text(equation(userInput));
+    // $("#result").slideUp();
+    $("#result, #pingpong-result").show();
+    $("#initial-display").hide();
   });
 });
 
 
 
 //Business End Logic
-var equation = function(userInput) {
+var equation = function(numberInput) {
+  var result = "";
 
 }

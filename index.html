@@ -23,31 +23,33 @@
 <!-- Navbar End -->
     <div class="jumbotron">
       <div class="container" id="text">
-        <h1>The Ping Pong Game</h1>
-        <h3>Enter in any number greater than 1, and see how many pings, pongs, and pingpongs you can get!</h3>
-        <h3>Rules
-          <h5>The game will present a list of your number counted up from 1 with the following exceptions:</h5>
-          <ul>
-            <li>Numbers divisible by 3 are replaced with the word "ping"</li>
-            <li>Numbers divisible by 5 are replaced with the word "pong"</li>
-            <li>Numbers divisible by 15 are replaced with the word "pingpong"</li>
-          </ul>
-          <h5>Example: If you enter in the number "20", the game will show you a result of (1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong, 16, 17, ping, 19, pong).</h5>
-        </h3>
+        <div id="initial-display">
+          <h1>The Ping Pong Game</h1>
+          <h3>Enter in any number greater than 1, and see how many pings, pongs, and pingpongs you can get!</h3>
+          <h3>Rules
+            <h5>The game will present a list of your number counted up from 1 with the following exceptions:</h5>
+            <ul>
+              <li>Numbers divisible by 3 are replaced with the word "ping"</li>
+              <li>Numbers divisible by 5 are replaced with the word "pong"</li>
+              <li>Numbers divisible by 15 are replaced with the word "pingpong"</li>
+            </ul>
+            <h5>Example: If you enter in the number "20", the game will show you a result of (1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong, 16, 17, ping, 19, pong).</h5>
+          </h3>
 <!-- Form Start -->
-        <form id="ping-pong">
-          <div class="form-group">
-            <p>
-              <label for="number-input">Enter a number:</label>
-              <input required id="number-input" type="text">
-            </p>
-          </div>
-          <button type="submit" class="btn" id="submit-btn">Submit!</button>
-        </form>
+          <form id="pingpong">
+            <div class="form-group">
+              <p>
+                <label for="number-input">Enter a number:</label>
+                <input required id="number-input" type="text">
+              </p>
+            </div>
+            <button type="submit" class="btn" id="submit-btn">Submit!</button>
+          </form>
+        </div>
 <!-- Form End -->
 <!-- Result Start -->
         <div id="result">
-          <p><span id="ping-pong-result"></span></p>
+          <p><span id="pingpong-result"></span></p>
         </div>
       </div>
     </div>
