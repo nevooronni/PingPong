@@ -25,8 +25,8 @@ $(document).ready(function() {
     var result = convert(userInput);
 
     $("#pingpong-result").text(result);
-    $("#result, #pingpong-result").show();
-    $("#initial-display").toggle();
+    $("#result, #pingpong-result").slideToggle();
+    $("#initial-display").slideToggle();
   });
 });
 
