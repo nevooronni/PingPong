@@ -50,12 +50,17 @@ form {
   color: #000000;
 }
 
-#submit-btn {
+#submit-btn, #reset-btn {
   margin-top: 10px;
   font-size: 15pt;
   background-color: #990066;
   border-color: #990066;
   color: #FFFFFF;
+}
+
+#reset-btn {
+  margin-left: 38%;
+  margin-top: 50px;
 }
 
 /*Result CSS Start--------------------------------------------------------------------*/

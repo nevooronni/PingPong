@@ -1,18 +1,18 @@
-//Business End Logic
-var convert = function(userInput) {
-  var result = [];
-  for (var inputCountUp = 1; inputCountUp <= userInput; inputCountUp += 1) {
+//Business Logic
+var gameEquation = function(userNumberInput) {
+  var arrayResult = [];
+  for (var inputCountUp = 1; inputCountUp <= userNumberInput; inputCountUp += 1) {
     if (((inputCountUp % 3) === 0) && ((inputCountUp % 5) === 0)) {
-      result.push("pingpong");
+      arrayResult.push("pingpong");
     } else if ((inputCountUp % 3) === 0) {
-      result.push("ping");
+      arrayResult.push("ping");
     } else if ((inputCountUp % 5) === 0) {
-      result.push("pong");
+      arrayResult.push("pong");
     } else {
-      result.push(inputCountUp);
+      arrayResult.push(inputCountUp);
     }
   }
-  return result;
+  return arrayResult;
 }
 
 
@@ -20,13 +20,16 @@ var convert = function(userInput) {
 $(document).ready(function() {
   $("form#pingpong").submit(function(event) {
     event.preventDefault();
-    var userInput = parseInt($("input#number-input").val());
+    var userNumberInput = parseInt($("input#number-input").val());
 
-    var result = convert(userInput);
+    var arrayResult = gameEquation(userNumberInput);
 
-    $("#pingpong-result").text(result);
+    $("#pingpong-result").text(arrayResult);
     $("#result, #pingpong-result").slideToggle();
     $("#initial-display").slideToggle();
+  });
+  $("#reset-btn").click(function(event) {
+    location.reload();
   });
 });
 
