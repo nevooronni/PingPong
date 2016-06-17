@@ -40,6 +40,7 @@ Contact Epicodus for support in running this program.
 * HTML
 * CSS
 * Bootstrap
+* Font Awesome
 * jQuery
 * JavaScript
 
