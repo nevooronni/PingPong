@@ -3,13 +3,13 @@ var pingpongGenerator = function(userNumberInput) {
   var resultArray = [];
   for (var inputCountUp = 1; inputCountUp <= userNumberInput; inputCountUp += 1) {
     if (((inputCountUp % 3) === 0) && ((inputCountUp % 5) === 0)) {
-      arrayResult.push("pingpong");
+      resultArray.push("pingpong");
     } else if ((inputCountUp % 3) === 0) {
-      arrayResult.push("ping");
+      resultArray.push("ping");
     } else if ((inputCountUp % 5) === 0) {
-      arrayResult.push("pong");
+      resultArray.push("pong");
     } else {
-      arrayResult.push(inputCountUp);
+      resultArray.push(inputCountUp);
     }
   }
   return resultArray;
