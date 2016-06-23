@@ -46,7 +46,7 @@ Contact Epicodus for support in running this program.
 
 ## Links
 
-Git Hub Webpage: http://pullashradha.github.io/Ping-Pong
+Git Hub Webpage: https://pullashradha.github.io/Ping-Pong
 
 ### License
 
