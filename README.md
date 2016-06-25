@@ -15,7 +15,7 @@ This webpage is a web application developed to practice JavaScript coding using 
 
 ## Known Bugs
 
-No known bugs.
+* If a large number is inputted the result page will extend into white space below the background picture.
 
 ## Specifications
 
@@ -23,13 +23,20 @@ This web application will take a number from the user and count up to it in the 
 
 The program should handle: | Example Input | Example Output
 ----- | ----- | -----
-The program should count up to the provided number | Example Input: 2 | Example Output: [1,2]
+The program should count up to the number entered by the user | Example Input: 2 | Example Output: [1,2]
 The program should replace the number 3 with the word "ping" | Example Input: 3 | Example Output: [1,2,ping]
 The program should replace the number 5 with the word "pong" | Example Input: 5 | Example Output: [1,2,ping,4,pong]
 The program should replace the number 15 with the word "pingpong" | Example Input: 15 | Example Output: [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,pingpong]
 The program should replace numbers divisible by 3 with the word "ping" | Example Input: 6 | Example Output: [1,2,ping,4,pong,ping]
 The program should replace numbers divisible by 5 with the word "pong" | Example Input: 10 | Example Output: [1,2,ping,4,pong,ping,7,8,ping,pong]
 The program should replace numbers divisible by 15 with the word "pingpong" | Example Input: 30 | Example Output: [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,pingpong,16,17,ping,19,pong,ping,22,23,ping,pong,26,ping,28,29,pingpong]
+
+## Future Features
+
+HTML | CSS Styling | JavaScript
+----- | ----- | -----
+----- | Fix bug | -----
+----- | Replace the background picture on the landing page | Add animation to the words "ping", "pong", and "pingpong" on the results page
 
 ## Support and Contact Details
 
