@@ -31,7 +31,7 @@ The program should replace numbers divisible by 15 with the word "pingpong" | Ex
 
 ## Future Features
 
-HTML | CSS Styling | JavaScript
+HTML | CSS | JavaScript
 ----- | ----- | -----
 ----- | Fix bug | Add animation to the words "ping", "pong", and "pingpong" on the results page
 ----- | Replace the background picture on the landing page | -----
