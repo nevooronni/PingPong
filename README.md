@@ -19,8 +19,6 @@ This webpage is a web application developed to practice JavaScript coding using 
 
 ## Specifications
 
-This web application will take a number from the user and count up to it in the form of a list. The list will replace numbers divisible by 3, 5, and 15 with the words "ping", "pong", and "pingpong" respectively.
-
 The program should handle: | Example Input | Example Output
 ----- | ----- | -----
 The program should count up to the number entered by the user | Example Input: 2 | Example Output: [1,2]
@@ -35,8 +33,8 @@ The program should replace numbers divisible by 15 with the word "pingpong" | Ex
 
 HTML | CSS Styling | JavaScript
 ----- | ----- | -----
------ | Fix bug | -----
------ | Replace the background picture on the landing page | Add animation to the words "ping", "pong", and "pingpong" on the results page
+----- | Fix bug | Add animation to the words "ping", "pong", and "pingpong" on the results page
+----- | Replace the background picture on the landing page | -----
 
 ## Support and Contact Details
 
