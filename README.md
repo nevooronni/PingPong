@@ -21,7 +21,7 @@ This program can only be accessed on computer with Git and Atom installed.
 
 ## Specifications
 
-The program should ... | Example Input | Example Output
+The program should... | Example Input | Example Output
 ----- | ----- | -----
 Count up to the number entered by the user | Number: 2 | Result: [1,2]
 Replace the number 3 with the word "ping" | Number: 3 | Result: [1,2,ping]
