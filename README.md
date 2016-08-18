@@ -1,4 +1,4 @@
-# Ping Pong Webpage
+# Ping Pong
 
 #### JavaScript Arrays & Looping Independent Project for Epicodus, 06/10/2016
 
