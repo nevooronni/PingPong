@@ -10,7 +10,7 @@ This program is a web application developed to practice JavaScript coding using 
 
 ## Setup/Installation Requirements
 
-This program can only be accessed on computer with Git and Atom installed.
+This program can only be accessed on a computer with Git and Atom installed.
 
 * Clone this repository
 * Open index.html in Terminal
